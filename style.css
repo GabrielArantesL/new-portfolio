@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1e1e1e, #2e2e2e);
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #121212;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+}
+
+header img {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px cyan;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: cyan;
+}
+
+header p {
+    font-style: italic;
+    color: #aaa;
+    margin: 10px 0 20px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 2px 2px 5px #000;
+}
+
+nav a:hover {
+    background: cyan;
+    color: black;
+    box-shadow: 0 0 15px white;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid cyan;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#projetos article {
+    margin-bottom: 30px;
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0ff2;
+}
+
+#projetos h3 {
+    color: cyan;
+    margin-bottom: 10px;
+}
+
+#projetos img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#projetos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgb(38, 207, 207);
+}
+
+aside {
+    background: #222;
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 2px solid cyan;
+}
+
+aside h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: cyan;
+}
+
+aside ul {
+    margin-top: 15px;
+}
+
+aside a {
+    color: cyan;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #111;
+    color: #888;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    border-top: 1px solid #444;
+}
+
+footer a {
+    color: cyan;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px auto;
+    }
+
+    #projetos img {
+        width: 100%;
+    }
+}
